@@ -1,0 +1,32 @@
+{
+  "name": "ai-sound-designer-backend",
+  "version": "1.0.0",
+  "description": "Backend for AI Sound Designer",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@fastify/multipart": "^8.1.0",
+    "@fastify/static": "^7.0.1",
+    "@magenta/music": "^1.23.1",
+    "@tensorflow/tfjs-node": "^4.17.0",
+    "dotenv": "^16.4.1",
+    "essentia.js": "^0.1.3",
+    "fastify": "^4.26.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.3.2",
+    "replicate": "^0.25.2",
+    "sox-audio": "^0.3.0",
+    "tone": "^14.7.77",
+    "wavefile": "^11.0.0",
+    "web-audio-api": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
