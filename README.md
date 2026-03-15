@@ -40,7 +40,7 @@ An advanced AI-powered sound design machine featuring voice personas, drum resyn
 
 1. **Clone/Navigate to the project**
    ```bash
-   cd /home/sphinxy/ai-sound-designer
+   cd ai-sound-designer
    ```
 
 2. **Install all dependencies**
